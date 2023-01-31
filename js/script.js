@@ -8,7 +8,7 @@ console.log('km da percorrere', km);
 
 // 2. chiedere all'utente la sua età
 
-let age = prompt('Quanti anni hai?');
+let age = parseInt(prompt('Quanti anni hai?'));
 console.log('eta', age);
 
 // 3. calcolare il prezzo del biglietto in base ai km da percorrere
@@ -48,3 +48,9 @@ let youPay = finalPrice.toFixed(2);
 console.log ('prezzo umano', youPay)
 
 // 6. stampare il risultato
+
+const toPay = document.getElementById('final-price');
+console.log('prendo elemento html', toPay)
+
+toPay.innerHTML = youPay + '€';
+
