@@ -43,4 +43,8 @@ if (age < 18) {
 }
 
 // 5. dare un forma umana
+
+let youPay = finalPrice.toFixed(2);
+console.log ('prezzo umano', youPay)
+
 // 6. stampare il risultato
