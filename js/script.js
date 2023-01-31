@@ -9,7 +9,15 @@ console.log(km);
 
 let age = prompt('Quanti anni hai?');
 console.log(age);
+
 // 3. calcolare il prezzo del biglietto in base ai km da percorrere
+
+let price = 0.21;
+console.log(price); 
+
+let ticketPrice = price * km;
+console.log(ticketPrice);
+
 // 4. calcolare lo sconto, se previsto
 // 5. dare un forma umana
 // 6. stampare il risultato
